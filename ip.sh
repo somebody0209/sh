@@ -1,2 +1,2 @@
-!# /bin/bssh
+#! /bin/bssh
 ifconfig | grep broadcast | awk '{print $2}'
